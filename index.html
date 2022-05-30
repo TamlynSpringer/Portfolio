@@ -1,152 +1,216 @@
 <!DOCTYPE html>
-<html lang="  " dir="ltr">
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title>Tamlyn's Portfolio</title>
+  <title>Tamlyn Springer - Developer</title>
+
+  <!-- CSS stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.ico?v=2">
+
+  <!-- Font awesome icons -->
+  <script src="https://kit.fontawesome.com/e5925a132d.js" crossorigin="anonymous"></script>
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Merriweather&family=Merriweather+Sans&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-  <table cellspacing="10">
-    <tr>
-      <td>
-        <img src="TamlynSpringer_picture.png" alt="Tamlyn profile picture">
-      </td>
-      <td>
-        <h1>
-          Tamlyn Springer Venturi
-        </h1>
-        <p><em>
-            A twenty-something trying to figure out life & learn web development
-            whilst living in a new country
-          </em></p>
-      </td>
-    </tr>
-  </table>
 
-  <!-- To bold something use strong and to italicize something use emphasis,
-  as this gives HTML more info about the text rather than just styling it
-  (ie. the job of CSS)
-  <em></em>
-  <strong></strong> -->
+  <section id="title">
+    <div class="container-fluid">
 
-  <hr>
-  <p>
-    I am a
-    <a href="webDev.html">web developer</a>
-    ,
-    <a href="art.html">artist</a>
-    and
-    <a href="https://www.researchgate.net/profile/Tamlyn-Springer">biologist</a>.
-  </p>
+      <!-- Navigation bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a><img class="navbar-img" src="images/B2.png" alt="leaves"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#intro">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cv">CV</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-  <hr>
+      <!-- Title -->
+      <div class="row" id="title">
+        <div class="col-md-8">
+          <h1 class="h1-title">I'm Tamlyn,</h1>
+          <h2>a developer & designer (in training)</h2>
+          <br>
+          <p>"The secret of change is to focus all of your energy not on fighting the old, but on building the new" - Socrates</p>
+        </div>
+        <div class="col-md-4">
+          <img class="intro-flower" src="images/flower-daffodil.png" alt="flower-daffodil">
+        </div>
+      </div>
+    </div>
+  </section>
 
-  <h3>Education</h3>
-  <ul>
-    <li>MSc in plant ecology & evolution</li>
-    <li>BSc in ecology & environmental sciences</li>
-  </ul>
+  <section id="intro">
+    <div class="row container-fluid">
+      <div class="col-md-6 col-sm-12">
+        <img class="profile" src="images/tamlyn-profile.png" alt="tamlyn-profile-picture">
+      </div>
+      <div class="col-md-6 col-sm-12 intro-text">
+        <h2>Hej!</h2>
+        <p class="intro">I'm Tamlyn Springer Venturi, an ecologist turned web developer. A German-South African making Sweden home. I love learning, illustrating & spending time in nature.</p>
+      </div>
 
-  <hr>
+    </div>
+  </section>
 
-  <h3>Work experience</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Dates</th>
-        <th>Position</th>
-        <th>Company</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2021 - current</td>
-        <td>Freelance environmental & social impact analyst</td>
-        <td>Impaakt</td>
-      </tr>
-      <tr>
-        <td>2020 - 2021</td>
-        <td>Retail store supervisor</td>
-        <td>Gone Outdoor Supply Company</td>
-      </tr>
-      <tr>
-        <td>2019 - 2020</td>
-        <td>Retail store assistant</td>
-        <td>Gone Outdoor Supply Company</td>
-      </tr>
-      <tr>
-        <td>2016 - 2019</td>
-        <td>BSc biology teaching assistant</td>
-        <td>University of the Witwatersrand</td>
-      </tr>
-    </tbody>
-  </table>
 
-  <hr>
+  <!-- CV -->
 
-  <h3>Skills</h3>
-  <table cellspacing="10">
-    <thead>
-      <tr>
-        <th>Coding</th>
-        <th>Languages</th>
-      </tr>
-    </thead>
-    <tr>
-      <td>
-        <table>
-          <tr>
-            <td>HTML</td>
-            <td>★</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>★</td>
-          </tr>
-          <tr>
-            <td>JavaScript</td>
-            <td>★</td>
-          </tr>
-          <tr>
-            <td>R</td>
-            <td>★★★</td>
-          </tr>
-        </table>
-      </td>
-      <td>
-        <table>
-          <tr>
-            <td>English (mother-tongue)</td>
-            <td>★★★★★</td>
-          </tr>
-          <tr>
-            <td>Swedish</td>
-            <td>★★</td>
-          </tr>
-          <tr>
-            <td>German</td>
-            <td>★★</td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+  <section id="cv">
+    <h1>Curiculum vitae</h1>
+    <h2>My Skills</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img class="skill-flower1" src="images/flower-snowdrop.png" alt="flower-snowdrop">
+        <h3>Coding Skills</h3>
+        <div class="row">
+          <div class="col-6">
+            <p>HTML</p>
+          </div>
+          <div class="col-6">
+            <p>★★</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p>CSS</p>
+          </div>
+          <div class="col-6">
+            <p>★★</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p>JavaScript</p>
+          </div>
+          <div class="col-6">
+            <p>★</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p>R</p>
+          </div>
+          <div class="col-6">
+            <p>★★</p>
+          </div>
+        </div>
+      </div>
 
-  <hr>
+      <div class="col-md-6 col-12">
+        <img class="skill-flower2" src="images/flower-hyacinth.png" alt="flower-hyacinth">
+        <h3 class="skill-text">Language skills</h3>
+        <div class="row">
+          <div class="col-6">
+            <p>English</p>
+          </div>
+          <div class="col-6">
+            <p>★★★★★</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p>Swedish</p>
+          </div>
+          <div class="col-6">
+            <p>★★</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p>German</p>
+          </div>
+          <div class="col-6">
+            <p>★★</p>
+          </div>
+        </div>
+      </div>
 
-  <h3>Hobbies</h3>
-  <ol>
-    <li>Painting</li>
-    <li>Learning</li>
-    <li>Hiking</li>
-  </ol>
+<!-- Education -->
+      <h2>Education</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>University education</h3>
+          <div class="row">
+            <div class="col-md-12">
+              <p>MSc in plant ecology & evolution</p>
+            </div>
+            <div class="col-md-12">
+              <p>BSc in ecology & environmental sciences</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h3>Bootcamps</h3>
+          <div class="row">
+            <div class="col-md-12">
+              <p>Angela Yu's (The London App Brewery) complete web development bootcamp - Udemy (underway)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
 
-  <hr>
+<!-- Work experience -->
 
-  <h3>
-    <a href="contact.html">Contact me</a>
-  </h3>
+
+
+
+
+
+
+
+
+<!-- Contact -->
+      <div class="contact-me">
+        <h2>Get in touch</h2>
+        <!-- <h3>.</h3>
+        <p class="contact-message">.</p> -->
+        <a class="btn" href="mailto:tamlynspringer@gmail.com">Contact me</a>
+      </div>
+    </div>
+    <br>
+
+<!-- Footer -->
+    <img class="flowers" src="images/flowers.png" alt="flowers-img">
+    <div class="bottom-container">
+      <!-- <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a> -->
+      <p class="copyright">© Tamlyn Springer</p>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 
 </body>
+
 </html>

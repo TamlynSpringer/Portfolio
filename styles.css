@@ -1,0 +1,159 @@
+/* colors -- #F7F7E8 #C7CFB7 #9DAD7F #557174 */
+
+/* HTML elements */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #F7F7E8;
+}
+h1 {
+  margin: 0 auto 0 auto;
+  font-family: 'Caveat', cursive;
+  font-size: 8rem;
+  color: #9DAD7F;
+  padding: 100px 0 100px 0;
+}
+h2 {
+  color: #557174;
+  font-family: 'Caveat', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 0.5;
+  padding-bottom: 10px;
+}
+h3 {
+  color: black;
+  font-family: 'Merriweather', serif;
+  font-size: 1.25rem;
+}
+a {
+  color: black;
+  font-size: 1.5rem;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  background: #9DAD7F;
+}
+
+p {
+    line-height: 2;
+    font-family: 'Merriweather', serif;
+}
+
+
+/* Navigation bar */
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #557174;
+}
+
+.navbar-img {
+  width: 8%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Monserrat-Light', sans-serif;
+  font-size: 1.2rem;
+}
+
+/* Intro */
+
+#intro {
+  margin: auto;
+  background-color: #C7CFB7;
+}
+
+.intro-text {
+  padding: 8% 3% 7%;
+}
+
+/* CV */
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+}
+
+.skill-text {
+  clear: left;
+}
+
+/* Contact */
+
+.contact-me {
+  background-color: #F7F7E8;
+  padding-top: 10%
+}
+
+/* Footer */
+
+.bottom-container {
+  background-color: #9DAD7F;
+  padding: 50px 0 20px;
+}
+
+/*CONTACT ME BUTTON*/
+
+.btn {
+  background: #557174;
+  background-image: -webkit-linear-gradient(top, #557174, #8aabbf);
+  background-image: -moz-linear-gradient(top, #557174, #8aabbf);
+  background-image: -ms-linear-gradient(top, #557174, #8aabbf);
+  background-image: -o-linear-gradient(top, #557174, #8aabbf);
+  background-image: linear-gradient(to bottom, #557174, #8aabbf);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #86abc2;
+  text-decoration: none;
+}
+
+/* PICTURES */
+
+.intro-flower {
+  width: 75%;
+  margin: 5;
+  float: left;
+}
+.flowers {
+  width: 60%;
+  border: 0;
+}
+.profile {
+  border-radius: 50%;
+  clear: both;
+  margin-left: auto;
+  padding: 10px;
+}
+.skill-flower1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.skill-flower2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
